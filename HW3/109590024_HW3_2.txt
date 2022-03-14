@@ -1,0 +1,5 @@
+Question 1: The second Activity is added as a Java class, the XML layout file is created, and the AndroidManifest.xml file is changed to declare a second Activity
+Question 2: The second Activity no longer appears when you try to start it with an explicit Intent
+Question 3: new Intent(Context context, Class<?> class)
+Question 4: As an Intent extra
+Question 5: All of the above

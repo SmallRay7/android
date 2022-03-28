@@ -1,4 +1,3 @@
-Question 1: 
-Question 2: 
-Question 3: 
-Question 4: 
+Question 1: Tests that are compiled and run entirely on your local machine with the Java Virtual Machine (JVM).
+Question 2: com.example.android.SimpleCalcTest (test)
+Question 3: @Test

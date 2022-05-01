@@ -1,0 +1,3 @@
+Question 1: TransitionDrawable
+Question 2: LevelListDrawable
+Question 3: Theme.AppCompat.Light.DarkActionBar

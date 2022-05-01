@@ -1,0 +1,3 @@
+Question 1: colorPrimary
+Question 2: Design Support Library
+Question 3: Any color shade labeled 500.

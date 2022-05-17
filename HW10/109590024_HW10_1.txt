@@ -1,0 +1,11 @@
+Question 1:
+android:max
+setProgress()
+
+Question 2:
+URL
+Integer
+Long
+
+Question 3:
+Implement onProgressUpdate(). Call onProgressUpdate().

@@ -1,0 +1,4 @@
+Question 1: A message that the Android system sends when a system event occurs.
+Question 2: registerReceiver() and unRegisterReceiver().
+Question 3: Using a broadcast intent, you can't find or start an activity.
+Question 4: LocalBroadcastManager

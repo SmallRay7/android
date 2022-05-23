@@ -1,3 +1,0 @@
-Question 1: Smallest screen width
-Question 2: res/values-fr-rFR/
-Question 3: res/values

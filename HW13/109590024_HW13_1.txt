@@ -1,3 +1,0 @@
-Question 1: onPause()
-Question 2: onCreate()
-Question 3: I can't.

@@ -1,0 +1,3 @@
+Question 1: strings.xml
+Question 2: pref_general.xml
+Question 3: Use a settings activity that extends Activity, a fragment that extends PreferenceFragment, and a SwitchPreference for the UI.

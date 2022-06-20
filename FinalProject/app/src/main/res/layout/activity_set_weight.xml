@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetWeightActivity"
+    android:background="@drawable/init">
+
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toStartOf="@+id/add"
+        android:layout_toEndOf="@+id/remove"
+        android:text="00"
+        android:textColor="@color/white"
+        android:textSize="120dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/remove"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/ic_circle"
+        android:src="@drawable/ic_remove" />
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/ic_circle"
+        android:src="@drawable/ic_add" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="25dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="需要多少水？"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="輸入體重，植物保母會建議你一天適合的水量喔！"
+            android:textSize="20dp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/compute"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn_bg"
+            android:text="計算每日水量"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/content"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

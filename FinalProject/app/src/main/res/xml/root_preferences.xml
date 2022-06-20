@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="喝水設定">
+
+        <SwitchPreferenceCompat
+            app:key="notification"
+            app:title="喝水提醒"
+            app:defaultValue="false"/>
+
+        <ListPreference
+            app:key="notification_time"
+            app:title="提醒時間"
+            app:entries="@array/notification_entries"
+            app:entryValues="@array/notification_values"
+            app:defaultValue="4"
+            app:useSimpleSummaryProvider="true"
+            app:dependency="notification"/>
+
+        <ListPreference
+            app:key="cup_size"
+            app:title="杯子容量"
+            app:entries="@array/cup_entries"
+            app:entryValues="@array/cup_values"
+            app:defaultValue="240"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
